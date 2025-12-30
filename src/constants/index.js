@@ -23,6 +23,7 @@ import {
   jobit,
   tripguide,
   threejs,
+  reactnative
 } from "../assets";
 
 export const navLinks = [
@@ -53,10 +54,6 @@ const services = [
     title: "Backend Developer",
     icon: backend,
   },
-  {
-    title: "Content Creator",
-    icon: creator,
-  },
 ];
 
 const technologies = [
@@ -79,6 +76,10 @@ const technologies = [
   {
     name: "React JS",
     icon: reactjs,
+  },
+   {
+    name: "React Native",
+    icon: reactnative,
   },
   {
     name: "Redux Toolkit",
