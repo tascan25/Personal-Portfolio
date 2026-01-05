@@ -23,7 +23,13 @@ import {
   jobit,
   tripguide,
   threejs,
-  reactnative
+  reactnative,
+  githubicon,
+  statusneo,
+  bluestock,
+  freelance,
+  python,
+  django,
 } from "../assets";
 
 export const navLinks = [
@@ -58,12 +64,12 @@ const services = [
 
 const technologies = [
   {
-    name: "HTML 5",
-    icon: html,
-  },
-  {
     name: "CSS 3",
     icon: css,
+  },
+  {
+    name: "HTML 5",
+    icon: html,
   },
   {
     name: "JavaScript",
@@ -77,9 +83,13 @@ const technologies = [
     name: "React JS",
     icon: reactjs,
   },
-   {
+  {
     name: "React Native",
     icon: reactnative,
+  },
+  {
+    name: "GitHub",
+    icon: githubicon,
   },
   {
     name: "Redux Toolkit",
@@ -113,61 +123,86 @@ const technologies = [
     name: "docker",
     icon: docker,
   },
+  {
+    name: "Python",
+    icon: python,
+  },
+  {
+    name: "Django",
+    icon: django,
+  },
 ];
 
 const experiences = [
   {
-    title: "React.js Developer",
-    company_name: "Starbucks",
-    icon: starbucks,
-    iconBg: "#383E56",
-    date: "March 2020 - April 2021",
-    points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
-  },
-  {
     title: "React Native Developer",
-    company_name: "Tesla",
-    icon: tesla,
+    company_name: "StatusNeo",
+    icon: statusneo,
     iconBg: "#E6DEDD",
-    date: "Jan 2021 - Feb 2022",
+    date: "Jan 2025 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
+      "At StatusNeo, I work on large-scale, customer-facing applications for the IndiGo booking platform, contributing to features used by millions of users.",
+      "Build and maintain scalable web and mobile interfaces using React.js and React Native.",
+      "Collaborate with designers, product managers, and backend engineers to deliver smooth, user-centric experiences.",
+      "Independently developed and shipped production features such as “Upgrade to Stretch” and the Stretch upgrade check-in pop-up, handling everything from implementation to release.",
+      "Focus on performance, responsiveness, and cross-device compatibility to ensure a seamless booking journey.",
+      "Actively participate in code reviews, resolve production issues, and maintain high code quality standards.",
     ],
   },
   {
-    title: "Web Developer",
-    company_name: "Shopify",
-    icon: shopify,
-    iconBg: "#383E56",
-    date: "Jan 2022 - Jan 2023",
+    title: "React Developer",
+    company_name: "Freelance",
+    icon: freelance,
+    iconBg: "#E6DEDD",
+    date: "Sep 2024 - Present",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Delivered custom web solutions as a Freelance Frontend Developer for clients across various industries.",
+      "Built modern, responsive, and visually polished interfaces using React.js and Tailwind CSS.",
+      "Worked directly with clients to translate ideas into scalable, production-ready web applications.",
+      "Prioritized performance, usability, and maintainable code to deliver high-quality user experiences.",
+      "Handled projects end-to-end, from requirement gathering to deployment and post-delivery support.",
+    ]
   },
   {
-    title: "Full stack Developer",
-    company_name: "Meta",
-    icon: meta,
+    title: "React.js Developer",
+    company_name: "Bluestock Finetech",
+    icon: bluestock,
     iconBg: "#E6DEDD",
-    date: "Jan 2023 - Present",
+    date: "Oct 2024 - Dec 2024",
     points: [
-      "Developing and maintaining web applications using React.js and other related technologies.",
-      "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-      "Implementing responsive design and ensuring cross-browser compatibility.",
-      "Participating in code reviews and providing constructive feedback to other developers.",
-    ],
+      "Worked as a Frontend Intern at Bluestock Fintech, contributing to the development and enhancement of their official website.",
+      "Built and refined user-facing components using React.js, ensuring a clean, modern, and intuitive UI.",
+      "Collaborated with the design and product teams to translate business requirements into responsive web interfaces.",
+      "Implemented responsive layouts and ensured cross-browser compatibility for a consistent user experience across devices.",
+      "Focused on code quality, reusability, and performance while following best frontend development practices.",
+    ]
   },
+  // {
+  //   title: "Web Developer",
+  //   company_name: "Shopify",
+  //   icon: shopify,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2022 - Jan 2023",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
+  // {
+  //   title: "Full stack Developer",
+  //   company_name: "Meta",
+  //   icon: meta,
+  //   iconBg: "#E6DEDD",
+  //   date: "Jan 2023 - Present",
+  //   points: [
+  //     "Developing and maintaining web applications using React.js and other related technologies.",
+  //     "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
+  //     "Implementing responsive design and ensuring cross-browser compatibility.",
+  //     "Participating in code reviews and providing constructive feedback to other developers.",
+  //   ],
+  // },
 ];
 
 const testimonials = [

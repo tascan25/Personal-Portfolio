@@ -114,6 +114,18 @@
   -webkit-text-fill-color: transparent;
 }
 
+.vertical-timeline::before {
+  width: 2px;
+  border-radius: 30px;
+  background-color: rgba(255, 255, 255, 0.545);
+  backdrop-filter: blur(40px);
+
+}
+
+.vertical-timeline-element-icon{
+  border: 0px;
+}
+
 /* canvas- styles */
 .canvas-loader {
   font-size: 10px;
