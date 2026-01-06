@@ -28,12 +28,22 @@ import tesla from "./company/tesla.png";
 import githubicon from './tech/githubicon.png';
 import carrent from "./carrent.png";
 import jobit from "./jobit.png";
+
 import tripguide from "./tripguide.png";
 import statusneo from './company/statusneo.png';
 import bluestock from './company/bluestock.png';
 import freelance from './company/freelance.png';
 import python from './tech/pythonlogo.png';
 import django from './tech/djangologo.png';
+
+
+import welcometrade from './Projects/welcometrade.png';
+import projectmanage from './Projects/projectmanage.png';
+import passvault from './Projects/passvault.png';
+import motisweets from './Projects/motisweets.png';
+import abha from './Projects/abha.png';
+import resort from './Projects/resort.png';
+import gaurav from './Projects/gaurav.png';
 
 export {
   logo,
@@ -71,4 +81,11 @@ export {
   freelance,
   python,
   django,
+  welcometrade,
+  projectmanage,
+  passvault,
+  motisweets,
+  abha,
+  resort,
+  gaurav,
 };

@@ -7,6 +7,7 @@ import { github } from "../assets";
 import { SectionWrapper } from "../hoc";
 import { projects } from "../constants";
 import { fadeIn, textVariant } from "../utils/motion";
+import { IoOpenOutline } from "react-icons/io5";
 
 const ProjectCard = ({
   index,
@@ -15,6 +16,7 @@ const ProjectCard = ({
   tags,
   image,
   source_code_link,
+  web_link,
 }) => {
   return (
     <motion.div variants={fadeIn("up", "spring", index * 0.5, 0.75)}>
@@ -52,8 +54,13 @@ const ProjectCard = ({
           <p className='mt-2 text-secondary text-[14px]'>{description}</p>
         </div>
 
-        <div className='mt-4 flex flex-wrap gap-2'>
-          {tags.map((tag) => (
+        <div className="w-full p-4 flex flex-row justify-end">
+          
+        </div>
+
+        <div className='mt-4 flex flex-wrap justify-between gap-2 items-center'>
+          <div className="flex flex-row justify-evenly flex-wrap items-center gap-4">
+                 {tags.map((tag) => (
             <p
               key={`${name}-${tag.name}`}
               className={`text-[14px] ${tag.color}`}
@@ -61,6 +68,13 @@ const ProjectCard = ({
               #{tag.name}
             </p>
           ))}
+          </div>
+       
+
+          <a href={web_link} target="_blank" rel="noreferrer">
+            <IoOpenOutline className="cursor-pointer" />
+          </a>
+          
         </div>
       </Tilt>
     </motion.div>

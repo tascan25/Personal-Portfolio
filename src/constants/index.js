@@ -30,6 +30,13 @@ import {
   freelance,
   python,
   django,
+  welcometrade,
+  projectmanage,
+  passvault,
+  motisweets,
+  abha,
+  resort,
+  gaurav,
 } from "../assets";
 
 export const navLinks = [
@@ -208,94 +215,177 @@ const experiences = [
 const testimonials = [
   {
     testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
+      "I thought it was impossible to make a website as beautiful as our product, but Saksham  proved me wrong.",
+    name: "Mohit Sharma",
+    designation: "Owner",
+    company: "Welcome Trade",
+    image: "https://randomuser.me/api/portraits/men/4.jpg",
   },
   {
     testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
+      "I've never met a web developer who truly cares about their clients' success like Saksham does.",
+    name: "Gaurav Bhatia",
+    designation: "Owner",
+    company: "Gaurav Motors",
     image: "https://randomuser.me/api/portraits/men/5.jpg",
   },
   {
     testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
+      "After Saksham optimized our website, our traffic increased by 50%. We can't thank them enough!",
+    name: "Mehak Sharma",
+    designation: "Owner",
+    company: "Moti Sweets",
     image: "https://randomuser.me/api/portraits/women/6.jpg",
   },
 ];
 
 const projects = [
   {
-    name: "Car Rent",
+    name: "Welcome Trade",
     description:
-      "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+      "A single go to platform for all your Services, weather it is domestic or international. Welcome Trade helps you find the best service providers around you. This website is built using React.js for frontend and Django for backend, for the client Welcome Trade.",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "mongodb",
-        color: "green-text-gradient",
-      },
-      {
-        name: "tailwind",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      }
     ],
-    image: carrent,
-    source_code_link: "https://github.com/",
+    image: welcometrade,
+    source_code_link: "https://github.com/tascan25/client_welcome_trade",
+    web_link: "https://welcometrade.netlify.app/"
   },
   {
-    name: "Job IT",
+    name: "Whispering Valley Resort",
     description:
-      "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+      "A resort website that provides information about the resort, its amenities, and allows users to make reservations. Built using React.js for server-side rendering and Django for backend services, for the client Whispering Valley Resort.",
     tags: [
       {
-        name: "react",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "restapi",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "scss",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
+
     ],
-    image: jobit,
-    source_code_link: "https://github.com/",
+    image: resort,
+    source_code_link: "https://github.com/tascan25/client_whispering_valley_resort",
+    web_link: "https://resortr.netlify.app/"
   },
   {
-    name: "Trip Guide",
+    name: "Moti Sweets",
     description:
-      "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
+      "A delightful dessert shop website that showcases a variety of sweets and treats. Built using React.js and Tailwind CSS for frontend and Django for backend services, for the client Moti Sweets.",
     tags: [
       {
-        name: "nextjs",
+        name: "React.js",
         color: "blue-text-gradient",
       },
       {
-        name: "supabase",
+        name: "Django",
         color: "green-text-gradient",
       },
       {
-        name: "css",
+        name: "Tailwind CSS",
         color: "pink-text-gradient",
       },
     ],
-    image: tripguide,
-    source_code_link: "https://github.com/",
+    image: motisweets,
+    source_code_link: "https://motisweets.com/",
   },
+  {
+    name: "Dr. Abha Bhatnagar",
+    description:
+      "A professional website for Dr. Abha Bhatnagar, a renowned medical practitioner. The website provides information about her services, expertise, and allows patients to book appointments. Built using React.js and Tailwind CSS for frontend.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: abha,
+    source_code_link: "https://github.com/tascan25/ent-whisper-clinic",
+    web_link: "https://drabhabhatnagar.com/",
+  },
+  {
+    name: "Gaurav Motors",
+    description:" A second hand car reseller website, which gives you varites of the option for buying the cars, Built using React.js and Tailwind CSS for frontend",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: gaurav,
+    source_code_link: "https://github.com/tascan25/client-gaurav_motors",
+    web_link: "https://gauravmotors.in/",
+  },
+  {
+    name: "PassVault",
+    description:
+      "A secure password manager application that helps users store and manage their passwords safely. Built using React.js and Tailwind CSS for frontend and Django for backend services.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+    ],
+    image: passvault,
+    source_code_link: "https://github.com/tascan25/PassVault",
+    web_link: "https://passwrdvault.netlify.app/"
+  },
+  {
+    name: "Project Management Tool",
+    description:
+      "A web-based project management tool that allows teams to collaborate, track tasks, and manage projects efficiently. Built using React.js and Tailwind CSS for frontend and Django for backend services.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      },
+    ],
+    image: projectmanage,
+    source_code_link: "https://github.com/tascan25/Project-Management-App",
+    web_link: "https://rprojectmanager.netlify.app/"
+  },
+
 ];
 
 export { services, technologies, experiences, testimonials, projects };
