@@ -1,4 +1,4 @@
-import logo from "./logo.svg";
+import logo from "./saksham_logo.png";
 import backend from "./backend.png";
 import creator from "./creator.png";
 import mobile from "./mobile.png";
@@ -38,12 +38,13 @@ import django from './tech/djangologo.png';
 
 
 import welcometrade from './Projects/welcometrade.png';
-import projectmanage from './Projects/projectmanage.png';
-import passvault from './Projects/passvault.png';
-import motisweets from './Projects/motisweets.png';
-import abha from './Projects/abha.png';
-import resort from './Projects/resort.png';
-import gaurav from './Projects/gaurav.png';
+import projectmanage from '../assets/Projects/projectmanage.png';
+import passvault from '../assets/Projects/passvault.png';
+import motisweets from '../assets/Projects/motisweets.png';
+import toyjoy from '../assets/Projects/toyjoy.png';
+import abha from '../assets/Projects/abha.png';
+import resort from '../assets/Projects/resort.png';
+import gaurav from '../assets/Projects/gaurav.png';
 
 export {
   logo,
@@ -88,4 +89,5 @@ export {
   abha,
   resort,
   gaurav,
+  toyjoy
 };

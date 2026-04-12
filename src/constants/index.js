@@ -37,6 +37,7 @@ import {
   abha,
   resort,
   gaurav,
+  toyjoy
 } from "../assets";
 
 export const navLinks = [
@@ -240,6 +241,28 @@ const testimonials = [
 ];
 
 const projects = [
+  {
+    name: "Toy and Joy Playzone",
+    description:
+      "A vibrant and interactive website for Toy and Joy Playzone, a children's entertainment center. The website provides information about the playzone's attractions, events, and allows parents to book play sessions for their kids. Built using React.js for frontend and Django for backend services, for the client Toy and Joy Playzone.",
+    tags: [
+      {
+        name: "React.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Tailwind CSS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Django",
+        color: "green-text-gradient",
+      }
+    ],
+    image: toyjoy,
+    source_code_link: "http://github.com/tascan25/FootPrint",
+    web_link: "https://toyandjoyplayzoneplayschool.netlify.app/"
+  },
   {
     name: "Welcome Trade",
     description:
